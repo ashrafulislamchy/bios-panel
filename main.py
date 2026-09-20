@@ -54,7 +54,7 @@ DRAG_PATTERN = "A5 43 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?
 
 # ---- main branch's offsets ----
 AIMBOT_READ_OFFSET  = 0xB1
-AIMBOT_WRITE_OFFSET = 0xAB
+AIMBOT_WRITE_OFFSET = 0xAD
 DRAG_READ_OFFSET    = 0x46
 DRAG_WRITE_OFFSET   = 0x50
 
