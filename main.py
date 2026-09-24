@@ -425,7 +425,7 @@ def mkp(aob: str):
 # main branch's AOB patterns
 # ======================================================================
 # Aimbot pattern – UNCHANGED
-AIMBOT_PATTERN = "\xFF\xFF\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xFF\xFF\xFF\xFF\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00..................................\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xA5\x43"
+AIMBOT_PATTERN = "FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? 00 00 00 00 ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 00 00 00 00 A5 43"
 
 # Aimcolider pattern – from C# Aimbot Collider method
 # (replaces old DRAG_PATTERN for collider usage)
@@ -435,8 +435,8 @@ COLIDER_PATTERN = "FF FF FF FF ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 0
 # main branch's offsets
 # ======================================================================
 # Aimbot offsets – UNCHANGED
-AIMBOT_READ_OFFSET  = 0xBA
-AIMBOT_WRITE_OFFSET = 0xB6
+AIMBOT_READ_OFFSET  = 0xB7
+AIMBOT_WRITE_OFFSET = 0xB3
 
 # Aimcolider offsets – from C# Aimbot Collider method
 COLIDER_READ_OFFSET  = 0xFB    # read head value from baseAddr + 0x100
