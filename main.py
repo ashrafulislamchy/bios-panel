@@ -435,8 +435,8 @@ COLIDER_PATTERN = "FF FF FF FF ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 0
 # main branch's offsets
 # ======================================================================
 # Aimbot offsets – UNCHANGED
-AIMBOT_READ_OFFSET  = 0xFB
-AIMBOT_WRITE_OFFSET = 0x399
+AIMBOT_READ_OFFSET  = 0xB7
+AIMBOT_WRITE_OFFSET = 0xB3
 
 # Aimcolider offsets – from C# Aimbot Collider method
 COLIDER_READ_OFFSET  = 0xFB    # read head value from baseAddr + 0x100
